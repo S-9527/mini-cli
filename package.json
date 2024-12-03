@@ -1,0 +1,23 @@
+{
+  "name": "mini-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "rm -rf ./hei && node ./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^7.1.0",
+    "ejs": "^3.1.10",
+    "execa": "^9.5.1",
+    "prettier": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  }
+}
